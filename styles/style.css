@@ -1,0 +1,138 @@
+:root {
+  --contrast-color: #155259;
+  --main-text-font: "Vollkorn", serif;
+  --background-color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--main-text-font);
+  font-size: 18px;
+}
+
+body {
+  background: var(--contrast-color);
+  width: inherit;
+  height: inherit;
+}
+
+p {
+  padding-top: 0.5rem;
+  text-align: justify;
+  line-height: 1.5rem;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 4rem 1.5rem 4rem;
+  margin: 1.5rem;
+  margin-bottom: 0;
+  background: var(--background-color);
+}
+
+.title {
+  color: var(--contrast-color);
+  font-size: 34px;
+  letter-spacing: 1px;
+  font-family: "Comfortaa", cursive;
+  margin-bottom: 0.2rem;
+}
+
+.main-text {
+  font-family: var(--main-text-font);
+  font-size: 1rem;
+  margin-top: 0.4rem;
+  margin-right: 0.4rem;
+  color: #000000;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 1.5rem;
+  margin-top: 0;
+  background: var(--background-color);
+  padding-block-end: 8rem;
+}
+
+.main-content:first-of-type {
+  padding-left: 5rem;
+}
+
+.main-content:nth-last-of-type(1) {
+  padding-right: 5rem;
+}
+
+.main-content-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 1.5rem;
+}
+
+.content-title {
+  text-align: center;
+  font-size: 26px;
+  letter-spacing: 0.5px;
+  color: var(--contrast-color);
+  background: rgba(21, 82, 89, 0.07);
+  text-align: center;
+  border-radius: 2px;
+  padding-top: 0.4rem;
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.fab,
+.fas {
+  color: var(--contrast-color);
+  margin-right: 0.7rem;
+  margin-left: 0.6rem;
+}
+
+.content-subtitle-bold {
+  margin-top: 0.5rem;
+  font-weight: 700;
+}
+
+.content-subtitle-bold:nth-last-of-type(1) {
+  margin-top: 1rem;
+}
+
+.content-subtitle-italic {
+  margin-top: 0.3rem;
+  font-style: italic;
+}
+
+.content-subtitle-colored {
+  margin-top: 0.3rem;
+  color: var(--contrast-color);
+}
+
+.skills {
+  border-radius: 4px;
+  padding: 0.53rem 0.8rem 0.4rem;
+  margin-right: 0.873205rem;
+  margin-bottom: 0.673205rem;
+  margin-top: 0.2rem;
+  border: 1px solid var(--contrast-color);
+  background-color: var(--contrast-color);
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
